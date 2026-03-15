@@ -3,10 +3,19 @@ Part II: Import Transmutation
 Demonstration script (at repository root).
 """
 
+# Method 1 - Full module import
 import alchemy.elements
+
+# Method 2 - Specific function import
 from alchemy.elements import create_water
+
+# Method 3 - Aliased import
 from alchemy.potions import healing_potion as heal
-from alchemy import create_fire, create_water, strength_potion
+
+# Method 4 - Multiple imports
+from alchemy.elements import create_fire, create_earth
+from alchemy.potions import strength_potion
+
 
 def bold(text: str) -> str:
     """A function making strings of text bold."""
