@@ -1,9 +1,10 @@
 """
+Part I: The Sacred Scroll
 Demonstration script (at repository root)
 """
 
-import alchemy
-import alchemy.elements
+import alchemy as alch
+import alchemy.elements as elem
 
 
 def bold(text: str) -> str:
@@ -25,40 +26,41 @@ def demo() -> None:
     div()
 
     print(bold(' Testing direct module access:'))
-    print(f" alchemy.elements.create_fire(): {alchemy.elements.create_fire()}")
-    print(f" alchemy.elements.create_water(): {alchemy.elements.create_water()}")
-    print(f" alchemy.elements.create_earth(): {alchemy.elements.create_earth()}")
-    print(f" alchemy.elements.create_air(): {alchemy.elements.create_air()}")
+    print(f" alchemy.elements.create_fire(): {elem.create_fire()}")
+    print(f" alchemy.elements.create_water(): {elem.create_water()}")
+    print(f" alchemy.elements.create_earth(): {elem.create_earth()}")
+    print(f" alchemy.elements.create_air(): {elem.create_air()}")
 
     print()
     print(bold(' Testing package-level access (controlled by __init__.py):'))
 
     try:
-        print(f" alchemy.create_fire(): {alchemy.create_fire()}")
+        print(f" alchemy.create_fire(): {alch.create_fire()}")
     except AttributeError:
         print(" alchemy.create_fire(): AttributeError - not exposed")
 
     try:
-        print(f" alchemy.create_water(): {alchemy.create_water()}")
+        print(f" alchemy.create_water(): {alch.create_water()}")
     except AttributeError:
         print(" alchemy.create_water(): AttributeError - not exposed")
 
     try:
-        print(f" alchemy.create_earth(): {alchemy.create_earth()}")
+        print(f" alchemy.create_earth(): {alch.create_earth()}")
     except AttributeError:
         print(" alchemy.create_earth(): AttributeError - not exposed")
 
     try:
-        print(f" alchemy.create_air(): {alchemy.create_air()}")
+        print(f" alchemy.create_air(): {alch.create_air()}")
     except AttributeError:
         print(" alchemy.create_air(): AttributeError - not exposed")
 
     print()
     print(bold(' 📦 Package metadata'))
     div()
-    print(f"{bold(' Version:')} {alchemy.__version__}")
-    print(f" {bold('Author:')} {alchemy.__author__}")
+    print(f"{bold(' Version:')} {alch.__version__}")
+    print(f" {bold('Author:')} {alch.__author__}")
     print()
+
 
 if __name__ == "__main__":
     demo()
