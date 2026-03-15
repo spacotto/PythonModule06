@@ -1,7 +1,8 @@
 """
-Create your first alchemical package
-and learn how __init__.py controls
-what magic is available to other alchemists.
+Part I: The Sacred Scroll
+
+Objective: Discover the power of __init__.py, the sacred scroll
+that transforms ordinary folders into magical Python packages.
 """
 
 
