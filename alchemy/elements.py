@@ -1,6 +1,5 @@
 """
 Part I: The Sacred Scroll
-
 Basic elemental spells.
 """
 

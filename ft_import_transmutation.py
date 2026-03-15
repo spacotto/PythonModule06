@@ -1,6 +1,6 @@
 """
 Part II: Import Transmutation
-Demonstration script (at repository root)
+Demonstration script (at repository root).
 """
 
 import alchemy.elements

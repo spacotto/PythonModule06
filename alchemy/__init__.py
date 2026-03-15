@@ -1,6 +1,5 @@
 """
 Part I: The Sacred Scroll
-
 The main sacred scroll
 """
 
