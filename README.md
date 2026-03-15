@@ -9,6 +9,24 @@ Git clone the repository:
 git clone https://github.com/spacotto/Python_Module06.git
 ```
 
+### Part I: The Sacred Scroll
+
+Components:
+
+```bash
+.
+├── ft_sacred_scroll.py
+└── alchemy
+    ├── elements.py
+    └── __init__.py
+```
+
+How to test:
+
+```bash
+python3 ft_sacred_scroll.py
+```
+
 ## Theoretical Concepts
 
 The theoretical concepts covered in this module are documented in my separate notes repository: 
