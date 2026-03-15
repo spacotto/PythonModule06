@@ -1,9 +1,6 @@
 """
 Part II: Import Transmutation
-
-Objective: Master the art of from...import by
-summoning specific spells from distant grimoires
-without bringing the entire book.
+Advanced potion recipes
 """
 
 from .elements import create_fire, create_water, create_earth, create_air
