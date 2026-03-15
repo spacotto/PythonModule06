@@ -27,6 +27,23 @@ How to test:
 python3 ft_sacred_scroll.py
 ```
 
+### Part II: Import Transmutation
+
+Components:
+
+```bash
+.
+├── ft_import_transmutation.py
+└── alchemy
+    └── potions.py
+```
+
+How to test:
+
+```bash
+python3 ft_import_transmutation.py
+```
+
 ## Theoretical Concepts
 
 The theoretical concepts covered in this module are documented in my separate notes repository: 
