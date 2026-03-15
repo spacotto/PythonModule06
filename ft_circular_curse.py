@@ -3,6 +3,9 @@ Part IV: Breaking the Circular Curse
 Demonstration script (at repository root)
 """
 
+from alchemy.grimoire import validate_ingredients, record_spell
+
+
 def bold(text: str) -> str:
     """A function making strings of text bold."""
     w, r = "\033[1;97m", "\033[0m"
@@ -20,7 +23,7 @@ def demo() -> None:
     print()
 
     try:
-        print(bold(' Circular Curse Breaking'))
+        print(bold(' 👻 Circular Curse Breaking'))
         div()
 
         print()
@@ -33,7 +36,7 @@ def demo() -> None:
         print()
         print(bold(' Testing spell recording with validation:'))
         print(' record_spell("Fireball", "fire air"): '
-              f'{record_spell("Dark Magic", "shadow")}')
+              f'{record_spell("Fireball", "fire air")}')
         print(' record_spell("Dark Magic", "shadow"): '
               f'{record_spell("Dark Magic", "shadow")}')
 
