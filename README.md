@@ -64,6 +64,26 @@ How to test:
 python3 ft_pathway_debate.py
 ```
 
+### Part IV: Breaking the Circular Curse
+
+Components:
+
+```bash
+.
+├── ft_circular_curse.py
+└── alchemy
+    └── grimoire
+        └── __init__.py
+        ├── spellbook.py
+        └── validator.py
+```
+
+How to test:
+
+```bash
+python3 ft_circular_curse.py
+```
+
 ## Theoretical Concepts
 
 The theoretical concepts covered in this module are documented in my separate notes repository: 
