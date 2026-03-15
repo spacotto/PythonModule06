@@ -44,6 +44,26 @@ How to test:
 python3 ft_import_transmutation.py
 ```
 
+### Part III: The Great Pathway Debate
+
+Components:
+
+```bash
+.
+├── ft_pathway_debate.py
+└── alchemy
+    └── transmutation
+        └── __init__.py
+        ├── basic.py
+        └── advanced.py
+```
+
+How to test:
+
+```bash
+python3 ft_pathway_debate.py
+```
+
 ## Theoretical Concepts
 
 The theoretical concepts covered in this module are documented in my separate notes repository: 
