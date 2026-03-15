@@ -1,6 +1,5 @@
 """
 Part I: The Sacred Scroll
-
 Demonstration script (at repository root)
 """
 
