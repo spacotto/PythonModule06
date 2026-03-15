@@ -1,8 +1,7 @@
 """
 Part I: The Sacred Scroll
 
-Objective: Discover the power of __init__.py, the sacred scroll
-that transforms ordinary folders into magical Python packages.
+Basic elemental spells.
 """
 
 
