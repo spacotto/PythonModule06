@@ -32,7 +32,7 @@ def demo() -> None:
     """Part II: Import Transmutation - Demo"""
 
     print()
-    print(bold(' Import Transmutation Mastery'))
+    print(bold(' 🪄 Import Transmutation Mastery'))
     div()
     print()
 
