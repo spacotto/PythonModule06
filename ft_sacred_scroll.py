@@ -25,14 +25,19 @@ def demo() -> None:
     print(bold(' 📜 Sacred Scroll Mastery'))
     div()
 
-    print(bold(' Testing direct module access:'))
-    print(f" alchemy.elements.create_fire(): {elem.create_fire()}")
-    print(f" alchemy.elements.create_water(): {elem.create_water()}")
-    print(f" alchemy.elements.create_earth(): {elem.create_earth()}")
-    print(f" alchemy.elements.create_air(): {elem.create_air()}")
+    try:
+        print(bold(' Testing direct module access:'))
+        print(f" alchemy.elements.create_fire(): {elem.create_fire()}")
+        print(f" alchemy.elements.create_water(): {elem.create_water()}")
+        print(f" alchemy.elements.create_earth(): {elem.create_earth()}")
+        print(f" alchemy.elements.create_air(): {elem.create_air()}")
 
-    print()
-    print(bold(' Testing package-level access (controlled by __init__.py):'))
+        print()
+        print(bold(' Testing package-level access'
+                   ' (controlled by __init__.py):'))
+
+    except AttributeError as e:
+        print(f" Error: {e}")
 
     try:
         print(f" alchemy.create_fire(): {alch.create_fire()}")
