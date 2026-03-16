@@ -36,25 +36,31 @@ def demo() -> None:
     div()
     print()
 
-    print(bold(' Method 1 - Full module import:'))
-    print(f' alchemy.elements.create_fire(): {alchemy.elements.create_fire()}')
-    print()
+    try:
+        print(bold(' Method 1 - Full module import:'))
+        print(' alchemy.elements.create_fire():'
+              f' {alchemy.elements.create_fire()}')
+        print()
 
-    print(bold(' Method 2 - Specific function import:'))
-    print(f' create_water(): {create_water()}')
-    print()
+        print(bold(' Method 2 - Specific function import:'))
+        print(f' create_water(): {create_water()}')
+        print()
 
-    print(bold(' Method 3 - Aliased import:'))
-    print(f' heal(): {heal()}')
-    print()
+        print(bold(' Method 3 - Aliased import:'))
+        print(f' heal(): {heal()}')
+        print()
 
-    print(bold(' Method 4 - Multiple imports:'))
-    print(f' create_earth(): {create_earth()}')
-    print(f' create_fire(): {create_fire()}')
-    print(f' strength_potion(): {strength_potion()}')
-    print()
+        print(bold(' Method 4 - Multiple imports:'))
+        print(f' create_earth(): {create_earth()}')
+        print(f' create_fire(): {create_fire()}')
+        print(f' strength_potion(): {strength_potion()}')
+        print()
 
-    print(bold(' All import transmutation methods mastered!'))
+        print(bold(' All import transmutation methods mastered!'))
+
+    except Exception as e:
+        print(f' Error: {e}.')
+
     print()
 
 

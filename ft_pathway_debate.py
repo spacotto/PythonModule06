@@ -25,7 +25,7 @@ def demo() -> None:
     """Part III: The Great Pathway Debate - Demo"""
 
     print()
-    print(bold(' Pathway Debate Mastery'))
+    print(bold(' 🗺️ Pathway Debate Mastery'))
     div()
 
     try:
