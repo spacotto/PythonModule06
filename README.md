@@ -10,6 +10,12 @@ Git clone the repository:
 git clone https://github.com/spacotto/Python_Module06.git
 ```
 
+How to test:
+
+```bash
+python3 ft_circular_curse.py
+```
+
 ## Structure
 
 ### Part I: The Sacred Scroll
@@ -79,12 +85,6 @@ Components:
         └── __init__.py
         ├── spellbook.py
         └── validator.py
-```
-
-How to test:
-
-```bash
-python3 ft_circular_curse.py
 ```
 
 ## Theoretical Concepts
