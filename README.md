@@ -5,9 +5,12 @@
 ## Instructions
 
 Git clone the repository:
+
 ```bash
 git clone https://github.com/spacotto/Python_Module06.git
 ```
+
+## Structure
 
 ### Part I: The Sacred Scroll
 
